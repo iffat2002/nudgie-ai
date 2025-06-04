@@ -1,0 +1,143 @@
+.app {
+  width: 100%;
+  position: relative;
+}
+.app .signin-page {
+  width: 100%;
+  height: 100vh;
+}
+.app .signin-page .signin-content {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 1.5fr 1fr;
+}
+.app .signin-page .signin-content .si-left {
+  width: 100%;
+  background: #FAFDF1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app .signin-page .signin-content .si-left img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+.app .signin-page .signin-content .si-right {
+  width: 100%;
+  background-color: #f2fcda;
+  padding: 3rem 5rem;
+  display: flex;
+  justify-content: center;
+}
+.app .signin-page .signin-content .si-right .login-box {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.app .signin-page .signin-content .si-right .login-box .logo {
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.app .signin-page .signin-content .si-right .login-box h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.app .signin-page .signin-content .si-right .login-box p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #64748B;
+  font-weight: 400;
+}
+.app .signin-page .signin-content .si-right .login-box .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.app .signin-page .signin-content .si-right .login-box .form-group input {
+  padding: 1.6rem 2rem;
+  border-radius: 30px;
+  border: 1.5px solid #E2E8F0;
+  outline: none;
+  color: #94A3B8;
+  font-weight: 200;
+  font-size: 1.4rem;
+}
+.app .signin-page .signin-content .si-right .login-box .options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #475569;
+}
+.app .signin-page .signin-content .si-right .login-box .options label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.app .signin-page .signin-content .si-right .login-box .options a {
+  color: #94A3B8;
+  text-decoration: none;
+}
+.app .signin-page .signin-content .si-right .login-box .login-btn {
+  width: 100%;
+  background: black;
+  color: white;
+  border: 3px solid #8ABB01;
+  border-radius: 1000px;
+  padding: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 1rem 0;
+  letter-spacing: 1.1;
+  font-size: 1.3rem;
+}
+.app .signin-page .signin-content .si-right .login-box .divider {
+  width: 100%;
+  height: 1px;
+  background-color: #E2E8F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #94A3B8;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 2rem 0;
+}
+.app .signin-page .signin-content .si-right .login-box .divider span {
+  background-color: #f2fcda;
+  padding: 0 1.5rem;
+  margin-bottom: 5px;
+}
+.app .signin-page .signin-content .si-right .login-box .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+.app .signin-page .signin-content .si-right .login-box .social-icons div {
+  border: 1px solid #CBD5E1;
+  padding: 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background: transparent;
+}
+.app .signin-page .signin-content .si-right .login-box .signup-msg {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #94A3B8;
+  text-align: center;
+}
+.app .signin-page .signin-content .si-right .login-box .signup-msg a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}/*# sourceMappingURL=app.css.map */
